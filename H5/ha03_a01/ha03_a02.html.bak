@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>网易邮箱登录</title>
+</head>
+<style>
+    .header {
+        float: left;
+    }
+    
+    .head_1 {
+        float: right;
+    }
+    
+    .head_2 {
+        width: 1000px;
+        height: 60px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    
+    .section1 {
+        width: 1000px;
+        height: 400px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    
+    .section2 {
+        width: 500px;
+        height: 100%;
+        float: left;
+        border: 1px solid red;
+    }
+    
+    .section3 {
+        width: 400px;
+        height: 100%;
+        float: right;
+    }
+    
+    .footer {
+        width: 1000px;
+        height: 100px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    
+    .footer1 {
+        padding: 50px;
+        float: right;
+    }
+    
+    .img {
+        padding: 30px;
+    }
+</style>
+
+<body>
+
+    <div class="head_2">
+        <img src="assest/163logo.gif" class="header" /></br>
+        <span class="head_1"><a href="#">免费邮</a> &nbsp;<a href="#">企业邮</a> &nbsp;<a href="#">VIP邮箱</a>&nbsp;<a href="#">帮助</a></span>
+    </div>
+
+
+    <div class="section1">
+        <div class="section2">
+            <img src="assest/imap.jpg">
+            <ul>
+                <li>163/126yeah三大免费邮箱均默认开放</li>
+                <li>全面支持iphone/ipad及Android等系统</li>
+                <li>客户端,手机与网页,实现发送,阅读邮件</li>
+            </ul>
+            <p>立即同步普通登录手机号登录</p>
+
+        </div>
+        <div class="section3">
+            <form>
+                <p> <img src="assest/loginIcon.gif">普通登录</p>
+                用户名：<input type="text" name="username">@163.com</br>
+                密码：<input type="text" name="password">
+
+            </form>
+            版本：<select name="choose">
+                 <option value="默认">默认</option>
+                <option value="jiayou">jiayou</option>
+                </select></br>
+            </select>
+            </br>
+            <input type="checkbox" name="登录" value="登录">自动登录
+            <input type="checkbox" name="SSL" value="SSL">SSL
+
+            <p>
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <img class="img" src="assest/netease_logo.gif">
+        <span class="footer1"><a href="#">关于网易</a> &nbsp;<a href="#">免费邮</a> &nbsp;<a href="#">官方博客</a>&nbsp;<a href="#">客户服务</a>&nbsp;<a href="#">隐私政策</a> &nbsp;<a href="#">网易公司版权所有@2015-2018</a> 
+    </div>
+
+</body>

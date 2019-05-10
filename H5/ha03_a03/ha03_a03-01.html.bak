@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <head>
+                <img src="assest/header.jpg"></br>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱：<input type="text" name="username" maxlength="32"></P>
+                <P>&nbsp;&nbsp;&nbsp;会员登录名：<input type="password"  name="password" maxlength="32"></P>
+                <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码：<input type="text"  name="name" maxlength="32"></P>
+                <P>&nbsp;&nbsp;再次输入密码：<input type="text"  name="name" maxlength="8"></P>
+              </head>
+              <section>
+                    <form>
+                           
+                            <P>会员身份：<input type="radio" name="sex"  value="男" checked="买家"  >买家
+                                <input type="radio"  name="sex"   value="女" >卖家
+                                <input type="radio"  name="sex"   value="女" >俩者都是
+                            </P>
+                            <P>验证码：<input type="text"  name="name" maxlength="5"> <img src="assest/verycode.gif">
+                                <span><a href="#">看不清楚换一张？</a></span> </P>
+                                </form>
+                                        <input type="image"  src="assest\btn_reg.gif"  alt="Sumbit">
+                              
+              </section>
+              <footer>
+                    <iframe src="index4.html"></iframe></footer></br>
+                   <img src="assest/footer.jpg">
+              </footer>
+</body>
+</html>

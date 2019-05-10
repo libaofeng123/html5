@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QQ注册验证</title>
+    <style>
+        input:focus {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="assest/bg_chs.png" </body>
+    <h4>注册账号</h4>
+    <form>
+        <P>昵称<input type="text" name="username" pattern="[-\w\u4E00-\u9FA5]{4,10}" required />长度为4-10个字符</P>
+        <P>密码：<input type="password" name="password" pattern="[\dA-Za-z]{6,16}" required />长度为6-16个字符</P>
+        <P>确认密码<input type="text" name="name" maxlength="8" required />长度为6-16个字符</P>
+        <P>手机号码<input type="text" name="name" pattern="1[3578]\d{9}" required />密码长度为11为，以13|5|7|8开头</P>
+        <p>邮箱<input type="text" name="sex" required /></p>
+        <p>
+            年龄<input type="text" name="sex" pattern="\d|[1-9]\d|1[0-2]\d" required />
+        </p>
+
+        <input type="image" src="assest\btn.bmp" alt="Sumbit" />
+    </form>
+
+</html>

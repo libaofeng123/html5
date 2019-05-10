@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿里巴巴用户注册</title>
+</head>
+
+<body>
+
+    <head>
+        <img src="assest/logo.bmp"></br>
+        <a href="#">登录|</a> <a href="#">阿里巴巴首页|</a> <a href="#">客服中心|</a>
+        <img src="assest/icon1.bmp"> <a href="#">提建议</a>
+        <p>如需帮助，请咨询<img src="assest/icon2.bmp">或拨打400-800-1688</p>
+    </head>
+    <section>
+        <form>
+            <P>电子邮箱：<i nput type="text" name="username" maxlength="32"></P>
+                            <P>会员登录名：<input type="password"  name="password" maxlength="32"></P>
+                           <P>密码：<input type=    "text"  name="name" maxlength="32"></P>
+                            <P>再次输入密码：<input type="text"  name="name" maxlength="8"></P>
+                            <P>会员身份：<input type="radio" name="sex"  value="男" checked="买家"  >买家
+                                    <input type    ="radio"  name="sex"   value="女" >卖家
+                                <input type="radio"  name="sex"   value="女" >俩者都是
+                            </P>
+                              <span><a href="   #">看不清楚换一张？</a></span> </P>
+                                </form>
+                                        <input type="image"  src="assest\btn_reg.gif"  alt="Sumbit">
+                     wqeqweqw            
+              </section>
+              <>
+                    <iframe src="index4.html"></iframe></ footer></br>
+                    <a href="#">阿里巴巴版权所有 2015-2018  著作权与商标声明|</a>  <a href="#">法律声明|</a> <a href="#">服务条    款|</a>   <a href="#">隐私声明|</a>  <a href="#">联系我们|</a> <a href="#">网站地图|</a>   <a href="#">产品体检中心|</a>   
+                
+              </footer>
+</body>
+</html>
